@@ -1,0 +1,25 @@
+{
+	"invoices": [
+		{
+			"id": "RF123",
+			"date": "Due 25 May 2024",
+			"name": "Jensen Huang",
+			"price": 1875,
+			"status": "Paid"
+		},
+		{
+			"id": "RF123",
+			"date": "Due 25 May 2024",
+			"name": "Alex Grim",
+			"price": 9500,
+			"status": "Pending"
+		},
+		{
+			"id": "RF123",
+			"date": "Due 25 May 2024",
+			"name": "John Morrison",
+			"price": 2405,
+			"status": "Draft"
+		}
+	]
+}
