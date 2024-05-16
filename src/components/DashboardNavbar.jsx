@@ -1,22 +1,12 @@
 import styled from "styled-components";
 import AddButton from "../ui/AddButton";
+import DashboardNavTitle from "../ui/DashboardNavTitle";
+import Filter from "../ui/Filter";
 
 const StyledDashboardNav = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-`;
-
-const StyledNav = styled.div`
-	& p {
-		font-size: 1rem;
-		color: #aaabbd;
-		margin: 0;
-	}
-
-	& h2 {
-		margin: 0;
-	}
 `;
 
 const ActionContainer = styled.div`
@@ -28,12 +18,9 @@ const ActionContainer = styled.div`
 function DashboardNavbar() {
 	return (
 		<StyledDashboardNav>
-			<StyledNav>
-				<h2>Invoices</h2>
-				<p>The are 7 total invoices</p>
-			</StyledNav>
+			<DashboardNavTitle />
 			<ActionContainer>
-				<div>Filter</div>
+				<Filter />
 				<AddButton />
 			</ActionContainer>
 		</StyledDashboardNav>
