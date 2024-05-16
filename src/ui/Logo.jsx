@@ -9,7 +9,7 @@ const LogoContainer = styled.div`
 	justify-content: center;
 	align-items: center;
 	background: #7c5df9;
-	width: 80px;
+	width: 100%;
 	height: 80px;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;

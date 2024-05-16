@@ -17,8 +17,8 @@ const Container = styled.div`
 	flex-direction: column;
 	align-items: center;
 	gap: 1rem;
-	/* padding: 0 0.5rem 1rem 0.5rem; */
-	padding-bottom: 1.5rem;
+	padding: 0 0.5rem 1rem 0.5rem;
+	/* padding-bottom: 1.5rem; */
 `;
 
 function SideBar() {
