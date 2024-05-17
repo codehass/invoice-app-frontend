@@ -7,6 +7,10 @@ const GlobalStyles = createGlobalStyle`:root{
   --color-gray-100:  #1F213A;
   --color-brand-100: #e0e7ff; 
 
+  *{
+    box-sizing: border-box;
+  }
+  
   html {
     font-size: 62.5%;
   }
@@ -60,6 +64,8 @@ const GlobalStyles = createGlobalStyle`:root{
   h6 {
     overflow-wrap: break-word;
     hyphens: auto;
+     padding: 0;
+    margin: 0;
    } 
 
    img {
