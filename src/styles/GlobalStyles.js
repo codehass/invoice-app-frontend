@@ -16,7 +16,8 @@ const GlobalStyles = createGlobalStyle`:root{
   }
 
   body {
-    font-family: "Poppins", sans-serif;
+    @import url(https://fonts.googleapis.com/css?family=Spartan:100,200,300,regular,500,600,700,800,900);
+    font-family: "Spartan", sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
