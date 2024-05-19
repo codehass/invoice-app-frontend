@@ -15,6 +15,8 @@ const InfoInvoiceWrapper = styled.div`
 		font-size: 1.3rem;
 		font-weight: 100;
 		color: #8789a3;
+		width: 33%;
+		text-align: center;
 	}
 `;
 
