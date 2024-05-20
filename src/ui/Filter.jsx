@@ -7,7 +7,7 @@ const StyledFilter = styled.div`
 	justify-content: center;
 	align-items: center;
 	gap: 0.5rem;
-	/* background: #7c5df9; */
+	position: relative;
 
 	& span {
 		font-size: 1.2rem;
@@ -19,11 +19,34 @@ const StyledFilter = styled.div`
 	}
 `;
 
+const DropDown = styled.div`
+	position: absolute;
+	left: 0;
+	bottom: -100px;
+	width: 150px;
+	font-size: 20px;
+	background: red;
+	border-radius: 5px;
+`;
+
 function Filter() {
 	const [dropOpen, setDropOpen] = useState(false);
 
 	return (
 		<StyledFilter>
+			{dropOpen ? (
+				<DropDown>
+					<input type="checkbox" id="draft" value="draft" />
+					<label htmlFor="">Draft</label> <br />
+					<input type="checkbox" value="pending" />
+					<label htmlFor="pending">Pending</label> <br />
+					<input type="checkbox" value="paid" />
+					<label htmlFor="paid">Paid</label> <br />
+				</DropDown>
+			) : (
+				""
+			)}
+
 			<span>Filter by status</span>
 			<button onClick={() => setDropOpen((status) => !status)}>
 				{dropOpen ? (
