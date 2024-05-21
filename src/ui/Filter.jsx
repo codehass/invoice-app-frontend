@@ -25,7 +25,7 @@ const DropDown = styled.div`
 	bottom: -100px;
 	width: 150px;
 	font-size: 20px;
-	background: red;
+	background: #1f213a;
 	border-radius: 5px;
 `;
 
